@@ -24,7 +24,7 @@ implementation is compatible also if they choose to update their code.
 
 # Additional Files needed:
 Some of the files were too large for GitHub, 
-you'll find them here: https://doi.org/10.3929/ethz-b-000289734.
+you'll find them here: https://doi.org/10.3929/ethz-b-000289734. (at some point, in the mean time here:https://www.research-collection.ethz.ch/handle/20.500.11850/289734)
 
 # How to start:
 If you run the code for the first time, you will need to 

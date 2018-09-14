@@ -244,7 +244,7 @@ for i = 1:nseries
         % Write timeresults to file
         fileID = fopen(sprintf('.\\Results\\%s\\time_results.txt',foldername),'a');
 %         fprintf(fileID,'%s %s %s %s %s\n','datasetlbl{j}','simtime','disptime','tractime','evaltime');
-        fprintf(fileID,'%s %6.2f %6.2f %6.2f %6.2f %6.2f\r\n',datasetlbl{j},simtime,disptime.PDVC,disptime.GDVC,tractime,evaltime);
+        fprintf(fileID,'%s %6.2f %6.2f %6.2f %6.2f %6.2f %6.2f\r\n',datasetlbl{j},simtime,disptime.PDVC,disptime.GDVC,disptime.FIDVC,tractime,evaltime);
         fclose(fileID);
     end
     

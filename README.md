@@ -7,8 +7,6 @@ help to find guidelines for optimal data collection and evaluation. The software
 modular way, thus it is also possible to analyze experimental data, or to combine a variety of algorithms 
 to calculate the displacement and traction. 
 
-A deeper description of software and background will hopefully soon be published (and linked here).
-
 # Software Requirements:
 You need MATLAB as well as ANSYS (if you want to simulate data, and also one of the 
 traction reconstruction algorithms needs ANSYS). The code was written on Windows, and 
@@ -23,8 +21,7 @@ algorithm goes to them. We copied the files to this GitHub page to make sure tha
 implementation is compatible also if they choose to update their code.
 
 # Additional Files needed:
-Some of the files were too large for GitHub, 
-you'll find them here: https://doi.org/10.3929/ethz-b-000289734. (at some point, in the mean time here:https://www.research-collection.ethz.ch/handle/20.500.11850/289734)
+A sample input simulation dataset that can be used to run the software as well as a template for Ansys can be found here: https://doi.org/10.3929/ethz-b-000289734.
 
 # How to start:
 If you run the code for the first time, you will need to 
